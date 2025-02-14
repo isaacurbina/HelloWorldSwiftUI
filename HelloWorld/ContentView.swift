@@ -10,6 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
+			Text("iOS")
+				.font(.system(size: 180))
+				.fontWeight(.black)
+				.foregroundStyle(.teal.gradient)
             Link("Go to Apple",
 				 destination: URL(string:"https://www.apple.com")!)
 			Link("Call To Action",
